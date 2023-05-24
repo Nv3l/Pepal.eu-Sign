@@ -29,7 +29,7 @@ pip install -r requirements.txt
   password = "CPasClaire1234"
 ```
 
-
+> This script was tested on Python 3.8.5
 
 ## Run Automatically
 
