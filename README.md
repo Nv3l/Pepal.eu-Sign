@@ -76,4 +76,8 @@ pyinstaller --onefile pepalSign.py
 ## Support
 
 For support, you can contact me on Discord : `Chicoch#7678`
+  
+## Disclaimer
+
+This script is for educational purposes only.
 
