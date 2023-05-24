@@ -1,7 +1,8 @@
 
 # Pepal auto Signature
 
-A simple python script to automaticly sign you presence on pepal.eu (https://pepal.eu).
+A simple python script to automaticly sign you presence on [pepal.eu](https://pepal.eu).
+Un script pour signer automatiquement votre présence sur [pepal.eu](https://pepal.eu).
 
 <div id="header" align="center">
   <img src="https://www.pepal.eu/images/logo_login_2.png"> 
