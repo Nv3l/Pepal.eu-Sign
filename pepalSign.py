@@ -8,24 +8,6 @@
 # Tested on: Python 3.8.5
 # Disclaimer: This script is for educational purposes only.
 
-# ========== SETUP ==========
-# pip install requests
-# pip install re
-# Replace the username and password variable with your own
-# like this: username = "etu.callard" and password = "CPasClaire1234"
-
-
-# ========== USAGE ==========
-# python pepalSign.py
-# To automate this, you can use the Windows Task Scheduler
-# or the Linux CronTab
-# You can also compile this script into an executable with pyinstaller like so:
-# pip install -U pyinstaller
-# pyinstaller --onefile pepalSign.py
-# Then you can run the executable file in the dist folder
-# It would generate a pepalSign.exe file that you can run
-
-
 from requests import Session
 from re import split, findall
 
