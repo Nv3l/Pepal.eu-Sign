@@ -62,7 +62,7 @@ python C:\your\directory\Pepal.eu-Sign\pepalSign.py
 ---
 
 
-However, you can complie it into a .exe file using pyinstaller
+However, you can compile it into a .exe file using pyinstaller
 
 ```bash
 pip install -U pyinstaller
