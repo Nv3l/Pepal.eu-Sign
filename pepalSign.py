@@ -4,7 +4,7 @@
 # Author: Chicoch
 # Discord : Chicoch#7678
 # Website: https://www.pepal.eu/
-# Version: 2.0
+# Version: 2.1
 # Tested on: Python 3.8.5
 # Disclaimer: This script is for educational purposes only.
 
@@ -21,6 +21,9 @@ with Session() as s:
 
     # Login to https://www.pepal.eu
     s.post("https://www.pepal.eu/include/php/ident.php", data={"login": username, "pass": password}, cookies={"sdv": pepal_cookie})
+
+    # Avoid CVEC page at login
+    s.get("https://www.pepal.eu/", cookies={"sdv": pepal_cookie})
 
     # Get all the classroom code possible
     links = [split("/", link)[3] for link in findall("/presences/s/.......", s.get("https://www.pepal.eu/presences").text)]
